@@ -1,16 +1,11 @@
 {
-  "log": {
-    "loglevel": "warning"
-  },
+  "log": { "loglevel": "warning" },
   "inbounds": [{
     "port": 443,
     "protocol": "vmess",
     "settings": {
       "clients": [
-        {
-          "id": "D9F40DDB-581B-460E-B468-E3537F5AA2E2",
-          "alterId": 0
-        }
+        { "id": "D9F40DDB-581B-460E-B468-E3537F5AA2E2", "alterId": 0 }
       ]
     },
     "streamSettings": {
@@ -18,8 +13,5 @@
       "security": "tls"
     }
   }],
-  "outbounds": [{
-    "protocol": "freedom",
-    "settings": {}
-  }]
+  "outbounds": [{ "protocol": "freedom", "settings": {} }]
 }
